@@ -1,5 +1,10 @@
 create database dominos;
 use dominos;
+select * from pizzas;	
+select * from pizza_types;
+select * from orders;
+select * from orders_details;
+
 -- 1. Retrieve the total number of orders placed.
 select count(*)
  as totoal_no_of_orders 
